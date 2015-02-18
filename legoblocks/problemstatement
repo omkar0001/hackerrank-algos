@@ -1,0 +1,19 @@
+********* problem link **********
+https://www.hackerrank.com/challenges/lego-blocks
+
+
+******** Problem statement *****************
+
+You have 4 types of lego blocks, of sizes (1 x 1 x 1), (1 x 1 x 2), (1 x 1 x 3), and (1 x 1 x 4). Assume that you have an infinite number of blocks of each type.
+
+Using these blocks, you want to make a wall of height N and width M. The wall should not have any holes in it. The wall you build should be one solid structure. A solid structure can be interpreted in one of the following ways: 
+(1)It should not be possible to separate the wall along any vertical line without cutting any lego block used to build the wall. 
+(2)You cannot make a vertical cut from top to bottom without cutting one or more lego blocks.
+
+The blocks can only be placed horizontally. In how many ways can the wall be built?
+
+Input: 
+The first line contains the number of test cases T. T test cases follow. Each case contains two integers N and M.
+
+Output: 
+Output T lines, one for each test case containing the number of ways to build the wall. As the numbers can be very large, output the result modulo 1000000007.

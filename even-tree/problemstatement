@@ -1,0 +1,15 @@
+https://www.hackerrank.com/challenges/even-tree
+
+You are given a tree (a simple connected graph with no cycles). You have to remove as many edges from the tree as possible to obtain a forest with the condition that : Each connected component of the forest should contain an even number of vertices.
+
+To accomplish this, you will remove some edges from the tree. Find out the number of removed edges.
+
+Input Format 
+The first line of input contains two integers N and M. N is the number of vertices and M is the number of edges. 
+The next M lines contain two integers ui and vi which specifies an edge of the tree. (1-based index)
+
+Output Format 
+Print the answer, a single integer.
+
+Constraints 
+2 <= N <= 100.
